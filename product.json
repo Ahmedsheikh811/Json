@@ -1,17 +1,17 @@
 {
     "Watches" : [
-        {"id" : 1 , "Customer Name" :"Hassan" , "Watch Name" :"Rolex","Price" : 4000 }
+        {"id" : 1 , "Name" :"Hassan" ,"Price" : 4000 , "img" : "https://th.bing.com/th/id/OIP.asjGwlaVXbJy46Qx9tNb0AAAAA?rs=1&pid=ImgDetMain"} 
          ,
-         {"id" : 2 , "Customer Name" :"Kinza" , "Watch Name" :"Rolex" ,"Price" : 4000}
+         {"id" : 2 , "Name" :"Kinza" , "Watch Name" :"Rolex" ,"Price" : 4000, "img" : "https://th.bing.com/th/id/R.60c3e1d318a03c2d01528826628520e2?rik=HKckZ%2bveNZpgYA&pid=ImgRaw&r=0"} 
           ,
-          {"id" : 3 , "Customer Name" :"Aslam" , "Watch Name" :"Rolex" ,"Price" : 4000} 
+          {"id" : 3 , "Name" :"Aslam" , "Watch Name" :"Rolex" ,"Price" : 4000, "img" : "https://th.bing.com/th/id/OIP.8nLjcpYnG3o2MtNnHf6e6wHaHa?rs=1&pid=ImgDetMain"}  
     ],
     "Perfume" : [
-        {"id" :4 , "Customer Name" :"Hamza" , "Watch Name" :"Rolex","Price" : 4000 }
+        {"id" :4 , "Name" :"Hamza" , "Watch Name" :"Rolex","Price" : 4000 , "img" : ""} 
         ,
-        {"id" : 5 , "Customer Name" :"Umair" , "Watch Name" :"Rolex","Price" : 4000 }
+        {"id" : 5 , "Name" :"Umair" , "Watch Name" :"Rolex","Price" : 4000 , "img" : ""} 
         ,
-        {"id" : 6, "Customer Name" :"Umar" , "Watch Name" :"Rolex","Price" : 4000 }
+        {"id" : 6, "Name" :"Umar" , "Watch Name" :"Rolex","Price" : 4000, "img" : ""  }
     ]
 
 
