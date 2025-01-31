@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="/jquery/jquery-3.7.1.js"></script>
+<script src="/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+<script>
+    let url = location.href ;
+    console.log(url);
+    let obj = new URL(url);
+    console .log(obj);
+
+let pId = obj.searchParams.get('id');
+let pName = obj.searchParams.get('Name');
+let pPrice = obj.searchParams.get('Price');
+let pImage = obj.searchParams.get('Img');
+let pDes = obj.searchParams.get('detail');
+
+
+$(".row").append(`<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="`+pImage+`" id="img" alt="">
+    </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body"></div>
+                <h4 class="card-title">`+pName+`</h4>
+                <p class="card-text">`+pPrice+`</p>
+                <p class="card-text">`+pDes+`</p>
+                <button class="btn btn-info mt-3">add to card</button>   
+                </div>            
+            </div>`)
+
+        </script>
